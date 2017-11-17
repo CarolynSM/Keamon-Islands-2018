@@ -1,0 +1,98 @@
+/*
+  ======================
+  Custom Styles
+  ======================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Raleway:400,400i,700|Sacramento');
+
+/* Font Syntax
+font-family: 'Josefin Slab', serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: #f7d4c1;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  color: #f7d4c1;
+  font-family: 'Josefin Slab', serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+nav, small {
+  color: #f7d4c1;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+/*
+  ======================
+  Header
+  ======================
+*/
+
+header, footer {
+  background-color: #374359;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.nav nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+nav ul li a {
+  color: #f7d4c1;
+  text-decoration: none;
+}
+
+/*
+  ======================
+  Main
+  ======================
+*/
+
+main {
+  background-image: url("img/aspen.jpg");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 800px;
+}
+
+
+/*
+  ======================
+  Footer
+  ======================
+*/
+
+footer p {
+  text-align: center;
+}
+
+footer p small {
+  font-size: 16px;
+}

@@ -1,6 +1,6 @@
 /*
   ======================
-  Custom Styles
+  Pre-Materialize Custom Styles
   ======================
 */
 
@@ -13,7 +13,7 @@ font-family: 'Raleway', sans-serif;
 */
 
 
-h1 {
+/* h1 {
   font-family: 'Sacramento', cursive;
   color: #f7d4c1;
 }
@@ -37,14 +37,14 @@ nav, small {
 
 a {
   text-decoration: none;
-}
+} */
 /*
   ======================
   Header
   ======================
 */
 
-header, footer {
+/* header, footer {
   background-color: #374359;
   padding: 1rem;
 }
@@ -65,7 +65,7 @@ header, footer {
 nav ul li a {
   color: #f7d4c1;
   text-decoration: none;
-}
+} */
 
 /*
   ======================
@@ -73,14 +73,14 @@ nav ul li a {
   ======================
 */
 
-main {
+/* main {
   background-image: url("img/aspen.jpg");
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   min-height: 800px;
-}
+} */
 
 
 /*
@@ -89,10 +89,32 @@ main {
   ======================
 */
 
-footer p {
+/* footer p {
   text-align: center;
 }
 
 footer p small {
   font-size: 16px;
+} */
+
+
+
+/*
+  ==================
+  Materialize Styles
+  ==================
+*/
+
+/*
+  ==================
+  Navigation
+  ==================
+*/
+
+.brand-logo {
+  font-family: 'Sacramento', cursive;
+}
+
+.nav-wrapper {
+  padding: 0.5em;
 }

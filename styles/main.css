@@ -1,120 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Raleway:400,700|Shadows+Into+Light');
+/* font-family: 'Cedarville Cursive', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Raleway', sans-serif; */
+
+
 /*
-  ======================
-  Pre-Materialize Custom Styles
-  ======================
-*/
-
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Raleway:400,400i,700|Sacramento');
-
-/* Font Syntax
-font-family: 'Josefin Slab', serif;
-font-family: 'Sacramento', cursive;
-font-family: 'Raleway', sans-serif;
-*/
-
-
-/* h1 {
-  font-family: 'Sacramento', cursive;
-  color: #f7d4c1;
-}
-
-h1 {
-  font-size: 50px;
-}
-
-h3 {
-  color: #f7d4c1;
-  font-family: 'Josefin Slab', serif;
-  font-size: 24px;
-  text-align: center;
-}
-
-nav, small {
-  color: #f7d4c1;
-  font-family: 'Josefin Slab', serif;
-  font-size: 20px;
-}
-
-a {
-  text-decoration: none;
-} */
-/*
-  ======================
+  ============
   Header
-  ======================
+  ============
 */
 
-/* header, footer {
-  background-color: #374359;
-  padding: 1rem;
-}
-
-.nav {
-  display: flex;
+header {
   align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 1rem;
-}
-
-.nav nav ul li {
-  display: inline-block;
-  padding: 1rem;
-}
-
-nav ul li a {
-  color: #f7d4c1;
-  text-decoration: none;
-} */
-
-/*
-  ======================
-  Main
-  ======================
-*/
-
-/* main {
-  background-image: url("img/aspen.jpg");
+  background-color: #233d54;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0;
+  width: 100%;
+}
+
+.logo, .date {
+  color: #eddbd1;
+  font-family: 'Cedarville Cursive', cursive;
+  margin: 0;
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+.menu {
+  margin: 0;
+}
+
+.menu li {
+  color: #eddbd1;
+  display: inline-block;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.3em;
+  padding: 0.5em 1rem;
+}
+
+.menu li:hover {
+  background-color: #eddbd1;
+  color: #233d54;
+}
+
+.menu a {
+  color: #eddbd1;
+  text-decoration: none;
+}
+
+.logo-container {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 1rem;
+}
+
+/*
+  ============
+  Body
+  ============
+*/
+
+p {
+  color: #eddbd1;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-1, .row-3, .row-5 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  clear: both;
+  width: 100%;
+}
+
+.row-1 {
+  background-image: url(./img/colorful-colorado.jpg);
   min-height: 800px;
-} */
+}
 
+.row-3 {
+  background-image: url(./img/colorado-travel.jpg);
+  min-height: 600px;
+}
+
+.row-5 {
+  background-image: url(./img/keamonn-header.jpg);
+  min-height: 600px;
+}
+
+.background-img {
+  max-width: 100%;
+}
+
+.row-2, .row-4, .row-6 {
+  display: grid;
+  grid-template-columns: [start] auto [middle] 40% [end];
+  grid-template-rows: [top] auto [bottom];
+  height: 500px;
+  padding: 0 2rem;
+}
+
+.row-2, .row-6 {
+  background: #776364;
+}
+
+.row-4 {
+  background: #233d54;
+}
+
+.teaser-img-container {
+  align-items: center;
+  display: flex;
+  grid-column-start: middle;
+  grid-column-end: end;
+  padding: 2rem;
+}
+
+.teaser-img {
+  max-width: 100%;
+}
+
+.teaser-text-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: start;
+  grid-column-end: middle;
+  grid-row-start: top;
+  grid-row-end: bottom;
+  margin: 2rem 1rem;
+}
+
+.teaser-text a {
+  color: #eddbd1;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 /*
-  ======================
+  ============
   Footer
-  ======================
+  ============
 */
 
-/* footer p {
-  text-align: center;
+footer {
+  background-color:
 }
 
-footer p small {
-  font-size: 16px;
-} */
-
-
-
-/*
-  ==================
-  Materialize Styles
-  ==================
-*/
-
-/*
-  ==================
-  Navigation
-  ==================
-*/
-
-.brand-logo {
-  font-family: 'Sacramento', cursive;
-}
-
-.nav-wrapper {
-  padding: 0.5em;
+.legal {
+  color:
 }

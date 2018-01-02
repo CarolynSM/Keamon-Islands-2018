@@ -83,7 +83,41 @@ main {
 
 .row-1 {
   background-image: url(./img/colorful-colorado.jpg);
+  display: grid;
+  grid-template-columns: [start] 50% [middle] 50% [end];
+  grid-template-rows: [start] auto [end];
   min-height: 800px;
+}
+
+.banner-text {
+  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: middle;
+  grid-column-end: end;
+  margin-top: 8rem;
+}
+
+.banner-text h2, .banner-text h3 {
+  color: #233d54;
+  font-family: 'Cedarville Cursive', cursive;
+  line-height: 0;
+}
+
+.banner-text h2 {
+  font-size: 3rem;
+}
+
+.banner-text h3 {
+  font-size: 2rem;
+}
+
+.banner-text h4 {
+  color: #233d54;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+  line-height: 0;
 }
 
 .row-3 {
@@ -152,9 +186,12 @@ main {
 */
 
 footer {
-  background-color:
+  background-color: #233d54;
+  padding: 1rem;
 }
 
 .legal {
-  color:
+  color: #eddbd1;
+  margin: 0;
+  text-align: center;
 }

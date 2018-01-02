@@ -1,0 +1,19 @@
+main {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(./img/venue-2.jpg);
+  background-size: 105%;
+}
+
+.spacer {
+  height: 700px;
+}
+
+.wedding-details, .other-events {
+  background-color: rgba(116, 100, 100, 0.5);
+  padding: 5rem;
+}
+
+.row-3 {
+  background-image: url(./img/flowers.jpg);
+}

@@ -28,6 +28,10 @@ header {
   line-height: 2rem;
 }
 
+.logo-container a {
+  text-decoration: none;
+}
+
 .menu {
   margin: 0;
 }
@@ -42,6 +46,10 @@ header {
 
 .menu li:hover {
   background-color: #eddbd1;
+  color: #233d54;
+}
+
+.menu li a:hover {
   color: #233d54;
 }
 
@@ -192,6 +200,8 @@ footer {
 
 .legal {
   color: #eddbd1;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5em;
   margin: 0;
   text-align: center;
 }

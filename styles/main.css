@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Raleway:400,700|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Raleway:400,500,700|Shadows+Into+Light');
 /* font-family: 'Cedarville Cursive', cursive;
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Raleway', sans-serif; */
@@ -135,6 +135,7 @@ main {
 
 .row-5 {
   background-image: url(./img/keamonn-header.jpg);
+  background-size: 100%;
   min-height: 600px;
 }
 

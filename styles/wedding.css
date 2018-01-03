@@ -10,10 +10,85 @@ main {
 }
 
 .wedding-details, .other-events {
-  background-color: rgba(116, 100, 100, 0.5);
-  padding: 5rem;
+  background-color: rgba(237, 219, 209, 0.8);
+  color: #233d54;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
-.row-3 {
-  background-image: url(./img/flowers.jpg);
+.wedding-details {
+  padding-top: 3rem;
+}
+
+.other-events {
+  padding-bottom: 5rem;
+}
+
+hr {
+  background-image: linear-gradient(to right, rgba(34, 62, 84, 0), rgba(34, 62, 84, 0.75), rgba(34, 62, 84, 0));
+  border: 0;
+  height: 3px;
+  margin: 2rem 0;
+}
+
+.wedding-details h3,
+.wedding-details h4,
+.wedding-details p,
+.other-events h3,
+.other-events h4,
+.other-events p {
+  color: #233d54;
+  font-weight: 500;
+  text-align: center;
+}
+
+.wedding-details h3, .other-events h3 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+  line-height: 0.5em;
+}
+
+.wedding-details h4, .other-events h4, .details {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5em;
+  line-height: 0;
+}
+
+.details {
+  line-height: 0.4em;
+}
+
+.wedding-details a, .other-events a {
+  color: #233d54;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.other-events {
+  display: grid;
+  grid-template-columns: [left] 50% [middle] 50% [right];
+  grid-template-rows: [top] 20% [middle] auto [bottom];
+}
+
+.other-events-intro {
+  grid-column-start: left;
+  grid-column-end: right;
+  grid-row-start: top;
+  grid-row-end: middle;
+}
+
+.welcome {
+  grid-column-start: left;
+  grid-column-end: middle;
+  grid-row-start: middle;
+  grid-row-end: bottom;
+}
+
+.breakfast {
+  grid-column-start: middle;
+  grid-column-end: right;
+  grid-row-start: middle;
+  grid-row-end: bottom;
 }

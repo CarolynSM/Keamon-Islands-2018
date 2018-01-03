@@ -10,6 +10,10 @@ font-family: 'Raleway', sans-serif; */
   ============
 */
 
+body {
+  margin-top: 0;
+}
+
 header {
   align-items: flex-start;
   background-color: #233d54;
@@ -17,6 +21,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 0;
+  position: fixed;
   width: 100%;
 }
 
@@ -104,7 +109,7 @@ main {
   flex-direction: column;
   grid-column-start: middle;
   grid-column-end: end;
-  margin-top: 8rem;
+  margin-top: 15rem;
 }
 
 .banner-text h2, .banner-text h3 {

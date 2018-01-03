@@ -1,50 +1,116 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <link rel=stylesheet href="styles/reset.css">
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="styles/css/materialize.min.css"  media="screen,projection"/>
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel=stylesheet href="styles/main.css">
-  <title>Kelsey &amp; Eamonn</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo">E&amp;K</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="engagement.html">Engagement</a></li>
-          <li><a href="wedding.html">Wedding</a></li>
-          <li><a href="accomodations.html">Travel &amp; Accomodations</a></li>
-          <li><a href="registry.html">Registry</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="engagement.html">Engagement</a></li>
-          <li><a href="wedding.html">Wedding</a></li>
-          <li><a href="accomodations.html">Accomodations</a></li>
-          <li><a href="registry.html">Registry</a></li>
-        </ul>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Eamonn &amp; Kelsey</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/getting-here.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <a href="index.html">
+        <h1 class="logo" href="index.html">Eamonn &amp; Kelsey</h1>
+        <h3 class="date">July 14, 2018</h3>
+        </a>
       </div>
-    </nav>
-  </header>
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="wedding.html">Wedding &amp; Events</a></li>
+          <li><a href="getting-here.html">Getting Here</a></li>
+          <li><a href="">Our Story</a></li>
+          <li><a href="">Registry</a></li>
+          <li><a href="">RSVP</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-
+      <section class="row-1"></section>
+      <section class="row-2">
+          <h2 class="title">How to Get Here</h2>
+          <hr />
+          <div id="den">
+            <h3>Denver International Airport (DEN)</h3>
+            <p>8500 Peña Blvd, Denver, CO 80249</p>
+            <p>The Venue is a 2 hour drive from Denver International Airport. Shuttles to the mountains can be set up (see next) or rent a car and explore the area!</p>
+            <p><em>Or fly in early and spend a couple days with us! We are happy to help you accommodate transportation to Edwards.</em></p>
+          </div>
+          <div id="eagle-express">
+            <h3>Colorado Mountain Express Counter</h3>
+            <p>Denver International Airport, Level 5</p>
+            <button href="https://www.coloradomountainexpress.com/airport-shuttle-services" target="_blank">Visit Express Website</button>
+            <br />
+            <br />
+            <h3>Eagle County Regional Airport</h3>
+            <p>217 Eldon Wilson Rd, Gypsum, CO 81637</p>
+          </div>
+          <div id="shuttle">
+            <h3>Getting to the Ceremony &amp; Reception</h3>
+            <p>We have reserved 6 shuttles dedicated to picking up and dropping off our guests safely the day/night of the wedding. It is approximately 20 minutes drive time from Edwards and 30 minutes from Avon.</p>
+            <p>The shuttles will be picking up guests in Avon and Edwards at 3:30pm. The shuttles will return guests to Avon and Edwards at staggered times throughout the evening (Exact times TBD).</p>
+            <p>All guests are encouraged to use the shuttle service. There is limited parking at the venue and we would like our guests to return home safely after a couple celebratory drinks!</p>
+          </div>
+      </section>
+      <section class="row-3"></section>
+      <section class="row-4">
+        <h2 class="title">Where to Stay</h2>
+        <hr />
+        <div id="riverwalk">
+          <h3>Inn and Suites at Riverwalk</h3>
+          <p>27 Main Street, Edwards, CO 81632</p>
+          <p>The Inn and Suites at Riverwalk is the closet hotel to the venue and the only hotel in the town of Avon. It was renovated this year and is located right on the river!</p>
+          <p>We have reserved a room block and a group rate. You may book through the group rate or look at other sites where you may find cheaper prices (Priceline, hotels.com, etc).</p>
+          <p>A shuttle will be departing from this location the afternoon of the wedding and returning guests here following the reception.</p>
+          <button href="https://www.hotelplanner.com/Hotel/HotelRoomTypes.cfm?hotelid=207223&sc=Attendee_TheKnot&kw=http%3A%2F%2Ftheknot.com%2Fus%2Feamonn-smith-and-kelsey-stevenson-jul-2018&InDate=7/13/2018&OutDate=7/15/2018" target="_blank">Visit Hotel Website</button>
+        </div>
+        <div id="sheraton">
+          <h3>Sheraton Mountain Vista Villas - Avon</h3>
+          <p>160 W Beaver Creek Blvd, Avon, CO 81620</p>
+          <p>The Sheraton is a beautiful hotel in Avon. It is located in the center of town near a park and a lake. It is a more expensive option, but cheaper rates are likely to be found on other websites such as Priceline, Hotels.com, etc.</p>
+          <p>There is not a room block at this hotel; however, a shuttle will be available to pick up guests the day of the wedding.</p>
+          <button href="http://www.guestreservations.com/sheraton-mountain-vista-resort-villas/booking" target="_blank">Visit Hotel Website</button>
+        </div>
+        <div id="airbnb">
+          <h3>AirBnb</h3>
+          <p>There are plenty of options for rental condos and homes in the towns of Edwards and Avon. Shuttles will be available for transport to and from the Venue near the center of town in both Avon and Edwards. Consider booking an AirBnB and walking to the shuttle pick up!</p>
+          <button href="https://www.airbnb.com/s/Edwards--CO--United-States/homes?place_id=ChIJjfROWAXZQYcRbeeFR7okhoY&refinement_paths%5B%5D=%2Ffor_you&allow_override%5B%5D=&s_tag=B6HXUoWP" target="_target">Visit AirBnB</button>
+        </div>
+        <div id= "comfort-inn">
+          <h3>Comfort Inn Near Vail Beaver Creek</h3>
+          <p>161 W Beaver Creek Blvd, Avon, CO 81620</p>
+          <p>The Comfort Inn is an economical option in Avon. It is located in the center of town near a park and a lake - directly across the street from the Sheraton. This hotel is not the nicest option in town; however, you can typically find great deals online! This is our go-to in Avon and we can typically get a room for ~$100.00/night on Priceline. Plus, there are free waffles in the mornings!</p>
+          <p>There is not a room block at this hotel; however, a shuttle will be available to pick up guests the day of the wedding.</p>
+          <button href="https://www.comfortinnvail.com/" target="_blank">Visit Hotel Website</button>
+        </div>
+      </section>
+      <section class="row-5"></section>
+      <section class="row-6">
+        <h2>Things to Do</h2>
+        <hr />
+        <div id="bike-hike">
+          <h3>Mountain Biking &amp; Hiking Trails</h3>
+          <p>There is no shortage of trails with spectacular views through the aspens for mountain biking and hiking!</p>
+          <button href="https://www.mtbproject.com/directory/8012338/edwards-and-wolcott" target="_blank">View Trails</button>
+        </div>
+        <div id="golf">
+          <h3>Cordillera Valley Club</h3>
+          <p>0101 Legends Dr, Edwards, CO 81632</p>
+          <p>Like to Golf? We can set up tee times for groups that would like to spend the day golfing at the course where our wedding will be held!</p>
+          <button href="https://cordillera-vail.com/" target="_blank">Visit Website</button>
+        </div>
+        <div id="beaver-village">
+          <h3>Beaver Creek Village</h3>
+          <p>Beaver Creek, CO 81620</p>
+          <p>Access the world-class mountain through Beaver Creek village, Bachelor Gulch and Arrowhead village. Each has its own views and eclectic ambiance, so be sure to visit all for a well-rounded experience.</p>
+          <button href="https://www.beavercreek.com/the-mountain/about-the-mountain/village-to-village.aspx?tc_1=1" target="_blank">Visit Website</button>
+        </div>
+      </section>
     </main>
     <footer>
-      <p>
-        <small>&copy; 2018, Kelsey and Eamonn</small>
+      <p class="legal">
+        &copy;2018, Eamonn and Kelsey
       </p>
     </footer>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="scripts/js/materialize.min.js"></script>
-    <script type="text/javascript" src="scripts/js/materialize.js"></script>
   </body>
 </html>

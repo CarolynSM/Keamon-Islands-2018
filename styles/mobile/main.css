@@ -1,0 +1,42 @@
+@media screen
+and (min-width: 320px)
+and (max-width: 480px) {
+  .menu, .banner-text, .teaser-img, .teaser-img-container {
+    display: none;
+  }
+  .row-1, .row-3, .row-5 {
+    background-size: 200%;
+    display: block;
+    min-height: 225px;
+  }
+  .row-1 {
+    margin-top: 6rem;
+  }
+  .row-3, .row-5 {
+    background-attachment: scroll;
+  }
+  .row-3 {
+    margin-top: 0;
+    min-height: 200px;
+  }
+  .row-5 {
+    background-size: 130%;
+  }
+  .row-2, .row-4, .row-6 {
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+  }
+  .row-4, .row-6 {
+    height: 200px;
+  }
+  .teaser-text-container {
+    margin: 0.5em 1rem;
+    padding: 0;
+  }
+  p {
+    font-size: 1rem;
+  }
+}

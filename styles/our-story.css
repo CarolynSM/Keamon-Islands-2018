@@ -1,0 +1,21 @@
+.photo-container {
+  display: grid;
+  grid-template: [top] auto [bottom] / [left] 1fr [middle-left] 1fr [middle-right] 1fr [right];
+}
+
+.photo-col-1, .photo-col-2, .photo-col-3 {
+  diplay: flex;
+  flex-direction: column;
+}
+
+.photo-col-1 {
+  grid-column: left / middle-left;
+}
+
+.photo-col-2 {
+  grid-column: middle-left / middle-right;
+}
+
+.photo-col-3 {
+  grid-column: middle-right / right;
+}

@@ -9,7 +9,27 @@ and (max-width: 480px) {
     height: 200px;
   }
   .wedding-details {
-    padding: 1rem 0;
+    padding: 1rem 0 0 0;
     margin-top: 2.1em;
+  }
+  .wedding-details p {
+    font-size: 1.2em;
+  }
+  .other-events {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0;
+  }
+  hr {
+    margin: 1rem 0;
+  }
+  .other-events h3 {
+    font-size: 1.5em;
+  }
+  .other-events h4 {
+    font-size: 1.3em;
+  }
+  .other-events p {
+    font-size: 1.2em;
   }
 }

@@ -13,10 +13,15 @@
   background-size: 100%;
 }
 
+.row-2, .row-4, .row-6 {
+  height: auto;
+  padding-bottom: 2rem;
+}
+
 .row-2 {
   display: grid;
   grid-template: [top] 10% [middle-top] 5% [middle-bottom] auto [bottom] / [left] 1fr [middle-left] 1fr [middle-right] 1fr [right];
-  height: 575px;
+  /* height: 575px; */
 }
 
 .row-2 h2, .row-2 h3,
@@ -109,7 +114,7 @@ hr {
 .row-6 {
   display: grid;
   grid-template: [top] 10% [middle-top] 5% [middle-bottom] auto [bottom] / [left] 1fr [middle-left] 1fr [middle-right] 1fr [right];
-  height: 450px;
+  /* height: 450px; */
 }
 
 .row-6 h2 {

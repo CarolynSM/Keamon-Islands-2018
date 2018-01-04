@@ -1,5 +1,33 @@
 @media screen
 and (min-width: 320px)
 and (max-width: 480px) {
-  
+  .row-1 {
+    background-size: 100%
+  }
+  .row-2, .row-4, .row-6 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .row-2 h2, .row-4 h4, .row-6 h2 {
+    font-size: 1.9em;
+    margin: 0;
+    text-align: center;
+  }
+  .row-2 h3, .row-4 h3, .row-6 h3 {
+    font-size: 1.3em;
+    margin: 0;
+    text-align: center;
+  }
+  hr {
+    display: none;
+  }
+  #den p, #eagle-express p, #shuttle p {
+    font-size: 1rem;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
 }

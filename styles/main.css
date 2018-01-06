@@ -70,6 +70,10 @@ header {
   padding: 1rem;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 /*
   ============
   Body

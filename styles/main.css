@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Raleway:400,500,700|Shadows+Into+Light');
+@import url("https://fonts.googleapis.com/css?family=Cedarville+Cursive|Raleway:400,500,700|Shadows+Into+Light");
 /* font-family: 'Cedarville Cursive', cursive;
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Raleway', sans-serif; */
-
 
 /*
   ============
@@ -26,9 +25,10 @@ header {
   width: 100%;
 }
 
-.logo, .date {
+.logo,
+.date {
   color: #eddbd1;
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: "Cedarville Cursive", cursive;
   margin: 0;
   text-decoration: none;
   line-height: 2rem;
@@ -45,7 +45,7 @@ header {
 .menu li {
   color: #eddbd1;
   display: inline-block;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   font-size: 1.3em;
   padding: 0.5em 1rem;
 }
@@ -70,6 +70,10 @@ header {
   padding: 1rem;
 }
 
+#mobile-nav-icon {
+  display: none;
+}
+
 .mobile-nav {
   display: none;
 }
@@ -82,7 +86,7 @@ header {
 
 p {
   color: #eddbd1;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.3em;
 }
 
@@ -91,7 +95,9 @@ main {
   flex-direction: column;
 }
 
-.row-1, .row-3, .row-5 {
+.row-1,
+.row-3,
+.row-5 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -117,9 +123,10 @@ main {
   margin-top: 15rem;
 }
 
-.banner-text h2, .banner-text h3 {
+.banner-text h2,
+.banner-text h3 {
   color: #233d54;
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: "Cedarville Cursive", cursive;
   line-height: 0;
 }
 
@@ -133,7 +140,7 @@ main {
 
 .banner-text h4 {
   color: #233d54;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   font-size: 2rem;
   line-height: 0;
 }
@@ -153,7 +160,9 @@ main {
   max-width: 100%;
 }
 
-.row-2, .row-4, .row-6 {
+.row-2,
+.row-4,
+.row-6 {
   display: grid;
   grid-template-columns: [start] auto [middle] 40% [end];
   grid-template-rows: [top] auto [bottom];
@@ -161,7 +170,8 @@ main {
   padding: 0 2rem;
 }
 
-.row-2, .row-6 {
+.row-2,
+.row-6 {
   background: #776364;
 }
 
@@ -211,7 +221,7 @@ footer {
 
 .legal {
   color: #eddbd1;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   font-size: 1.5em;
   margin: 0;
   text-align: center;

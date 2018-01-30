@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Eamonn &amp; Kelsey</title>
     <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/our-story.css"
+    <link rel="stylesheet" href="styles/our-story.css" />
+    <link rel="stylesheet" href="styles/mobile/main.css" />
+    <link rel="stylesheet" href="styles/mobile/mobile-nav.css" />
   </head>
   <body>
     <header>
@@ -15,7 +17,7 @@
         <h3 class="date">July 14, 2018</h3>
         </a>
       </div>
-      <nav class="nav">
+      <!-- <nav class="nav">
         <ul class="menu">
           <li><a href="wedding.html">Wedding &amp; Events</a></li>
           <li><a href="getting-here.html">Getting Here</a></li>
@@ -23,15 +25,30 @@
           <li><a href="registry.html">Registry</a></li>
           <li><a href="">RSVP</a></li>
         </ul>
-      </nav>
+      </nav> -->
+      <div class="container accordion" onclick="mobileNavIcon(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
     </header>
     <main>
-
+      <div class="panel">
+        <nav>
+          <ul class="mobile-menu">
+            <li><a href="wedding.html">Wedding &amp; Events</a></li>
+            <li><a href="getting-here.html">Getting Here</a></li>
+            <li><a href="our-story.html">Our Story</a></li>
+            <li><a href="registry.html">Registry</a></li>
+          </ul>
+        </nav>
+      </div>
     </main>
     <footer>
       <p class="legal">
         &copy;2018, Eamonn and Kelsey
       </p>
     </footer>
+    <script type="text/javascript" src="./scripts/mobile-nav.js"></script>
   </body>
 </html>

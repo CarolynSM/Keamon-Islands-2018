@@ -33,6 +33,7 @@
 /* Mobile Menu Toggle */
 .accordion {
   padding: 18px;
+  /* position: fixed; */
   text-align: left;
   border: none;
   outline: none;

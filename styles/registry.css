@@ -1,0 +1,25 @@
+main {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(./img/flowers.jpg);
+  background-size: 105%;
+}
+
+button {
+  background-color: #776364;
+  border: 2px solid #776364;
+  border-radius: 8px;
+  color: #eddbd1;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+button:hover {
+  background-color:#233d54;
+  color: color: #eddbd1;
+}
+
+#registry-button {
+  display: flex;
+  justify-content: center;
+}

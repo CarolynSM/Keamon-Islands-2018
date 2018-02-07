@@ -51,10 +51,6 @@
 
 /* Menu Items */
 
-nav {
-  margin-top: 110px;
-}
-
 .mobile-menu {
   font-family: "Shadows Into Light", cursive;
   display: flex;
@@ -72,7 +68,7 @@ ul .mobile-menu {
   font-size: 1.4em;
   margin: 0 0.5em;
   text-align: center;
-  width: 100%;
+  width: 350px;
 }
 
 .mobile-menu li a {

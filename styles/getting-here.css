@@ -13,7 +13,9 @@
   background-size: 100%;
 }
 
-.row-2, .row-4, .row-6 {
+.row-2,
+.row-4,
+.row-6 {
   height: auto;
   padding-bottom: 2rem;
 }
@@ -24,19 +26,29 @@
   /* height: 575px; */
 }
 
-.row-2 h2, .row-2 h3,
-.row-4 h2, .row-4 h3,
-.row-6 h2, .row-6 h3 {
+.row-2 h2,
+.row-2 h3,
+.row-4 h2,
+.row-4 h3,
+.row-6 h2,
+.row-6 h3 {
   color: #eddbd1;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
 }
 
-.row-2 h2, .row-4 h2, .row-6 h2 {
+.row-2 h2,
+.row-4 h2,
+.row-6 h2 {
   font-size: 2.3em;
 }
 
 hr {
-  background-image: linear-gradient(to right, rgba(238, 218, 209, 0), rgba(238, 218, 209, 0.75), rgba(238, 218, 209, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(238, 218, 209, 0),
+    rgba(238, 218, 209, 0.75),
+    rgba(238, 218, 209, 0)
+  );
   border: 0;
   grid-column: left / right;
   grid-row: middle-top / middle-bottom;
@@ -44,7 +56,8 @@ hr {
   margin: 2rem 0;
 }
 
-.row-2 h3, .row-6 h3 {
+.row-2 h3,
+.row-6 h3 {
   font-size: 1.5em;
 }
 
@@ -54,25 +67,34 @@ hr {
   margin: 1rem;
 }
 
-#den, #eagle-express, #shuttle,
-#bike-hike, #golf, #beaver-village {
+#den,
+#eagle-express,
+#shuttle,
+#bike-hike,
+#golf,
+#beaver-village {
   grid-row: middle-bottom / bottom;
   margin: 0 1rem;
 }
 
-#den, #bike-hike {
+#den,
+#bike-hike {
   grid-column: left / middle-left;
 }
 
-#eagle-express, #golf {
+#eagle-express,
+#golf {
   grid-column: middle-left / middle-right;
 }
 
-#shuttle, #beaver-village {
+#shuttle,
+#beaver-village {
   grid-column: middle-right / right;
 }
 
-#den p, #eagle-express p, #shuttle p {
+#den p,
+#eagle-express p,
+#shuttle p {
   font-size: 1.2em;
 }
 
@@ -86,12 +108,18 @@ hr {
   font-size: 1.3em;
 }
 
-#riverwalk, #sheraton, #airbnb, #comfort-inn {
+#riverwalk,
+#sheraton,
+#airbnb,
+#comfort-inn {
   grid-row: middle-bottom / bottom;
   margin: 0 1rem;
 }
 
-#riverwalk p, #sheraton p, #airbnb p, #comfort-inn p {
+#riverwalk p,
+#sheraton p,
+#airbnb p,
+#comfort-inn p {
   font-size: 1.1em;
 }
 
@@ -122,15 +150,21 @@ hr {
 }
 
 button {
-    background-color: rgba(0, 0, 0, 0);
-    border: 2px solid #eddbd1;
-    border-radius: 8px;
-    color: #eddbd1;
-    font-size: 1rem;
-    padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #eddbd1;
+  border-radius: 8px;
+  color: #eddbd1;
+  font-size: 1rem;
+  padding: 0.5em;
 }
 
 button:hover {
   background-color: #eddbd1;
   color: #776364;
+}
+
+a {
+  color: #eddbd1;
+  font-weight: bold;
+  text-decoration: none;
 }

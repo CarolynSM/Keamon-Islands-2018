@@ -14,15 +14,19 @@ body {
 }
 
 header {
-  align-items: flex-start;
   background-color: #233d54;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  height: 10vh
   padding: 0;
   padding-top: 0;
   position: fixed;
-  width: 100%;
+  width: 100vw;
+}
+
+.header {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo,

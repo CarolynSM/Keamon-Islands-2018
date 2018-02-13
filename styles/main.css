@@ -11,6 +11,7 @@ font-family: 'Raleway', sans-serif; */
 
 body {
   margin-top: 0;
+  width: 100vw;
 }
 
 header {
@@ -114,7 +115,7 @@ main {
   display: grid;
   grid-template-columns: [start] 50% [middle] 50% [end];
   grid-template-rows: [start] auto [end];
-  min-height: 800px;
+  min-height: 100vh;
 }
 
 .banner-text {
@@ -125,6 +126,7 @@ main {
   grid-column-start: middle;
   grid-column-end: end;
   margin-top: 15rem;
+  height: 100vh
 }
 
 .banner-text h2,
@@ -220,7 +222,8 @@ main {
 
 footer {
   background-color: #233d54;
-  padding: 1rem;
+  padding: 1rem 0;
+  width: 100vw;
 }
 
 .legal {

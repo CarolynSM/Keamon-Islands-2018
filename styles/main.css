@@ -233,3 +233,13 @@ footer {
   margin: 0;
   text-align: center;
 }
+
+/*
+  ============
+  RSVP
+  ============
+*/
+
+.rsvp-embed {
+  padding-top: 12vh;
+}
